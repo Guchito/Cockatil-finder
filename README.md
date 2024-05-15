@@ -6,7 +6,6 @@ React Router Dom
 
 Tailwind CSS
 
-
 Zod to validate the responses of the api
 
 Zustand for global state
