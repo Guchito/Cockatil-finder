@@ -1,6 +1,6 @@
 # React + TypeScript + Vite + Tailwind CSS + ZOD + Zustand + Axios
 
-To run simply go to: https://main--cocktails-and-drinks.netlify.app/
+To run simply go to: https://cocktails-and-drinks.netlify.app/
 
 or download, open the terminal and write npm i, npm run dev.
 
