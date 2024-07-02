@@ -1,6 +1,5 @@
-# React + TypeScript + Vite + Tailwind CSS + ZOD + Zustand + Axios
-
 # Cocktails and Drinks
+# React + TypeScript + Vite + Tailwind CSS + ZOD + Zustand + Axios
 
 Welcome to Cocktails and Drinks! This project is a web application that allows you to search and discover various cocktail recipes. Built with modern web technologies, it offers a smooth and responsive user experience.
 
