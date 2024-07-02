@@ -12,8 +12,6 @@ Welcome to Cocktails and Drinks! This project is a web application that allows y
 - **Zod**: A TypeScript-first schema declaration and validation library.
 - **Zustand**: A small, fast, and scalable state management solution.
 - **Axios**: A promise-based HTTP client for making REST API requests.
-- **React Router Dom**: For routing and navigation within the application.
-- **Headless UI**: Unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 
 ## Live Demo
 
