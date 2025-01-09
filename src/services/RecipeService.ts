@@ -12,9 +12,9 @@ export async function getCategories() {
     }
 }
 export async function getRecipes(filters: SearchFilter) {
+
     const url = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${filters.ingredient}`
     const {data} = await axios(url)
-
     const result = DrinksAPIRepsonse.safeParse(data)
     if (result.success) {
         const drinks = result.data.drinks
@@ -24,6 +24,7 @@ export async function getRecipes(filters: SearchFilter) {
         const filteredDrinks = drinks.filter(drink => drink.strCategory === filters.category)
         return { drinks: filteredDrinks }
     }
+    return { drinks: [] }
 }
 
 export async function getRecipeById(id: Drink['idDrink']) {

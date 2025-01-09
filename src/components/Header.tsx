@@ -73,13 +73,13 @@ export default function Header() {
                         <label 
                             htmlFor="ingredient"
                             className="block text-white uppercase font-extrabold text-lg"
-                        >Name or ingredient</label>
+                        >Name</label>
                         <input 
                             className="p-3 w-full rounded-lg focus:outline-none"
                             id="ingredient"
                             type="text" 
                             name="ingredient"
-                            placeholder="Name or ingredient. E.g. Vodka, Tequila, Coffee"
+                            placeholder="Name / E.g. Margarita, Mojito, Dark and Stomy, etc"
                             onChange={handleChange}
                             value={searchFilters.ingredient}
                             
