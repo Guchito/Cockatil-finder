@@ -98,6 +98,7 @@ export default function Header() {
                             value={searchFilters.category}
                         >
                             <option value=""> -- Select -- </option>
+                            <option value="All">All</option>
                             {categories.drinks.map( category => (
                                 <option 
                                         value={category.strCategory}

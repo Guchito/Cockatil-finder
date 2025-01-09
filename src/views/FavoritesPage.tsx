@@ -15,7 +15,7 @@ export default function IndexPage() {
             {favorites.map(drink => (
               <DrinkCard 
                 key={drink.idDrink}
-                drink={drink}
+                drink={{ ...drink, strCategory: '' }}
               />
             ))}
           </div>

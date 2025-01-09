@@ -17,7 +17,8 @@ export const SearchFilterSchema = z.object({
 export const DrinkAPIRepsonse = z.object({
     idDrink: z.string(),
     strDrink: z.string(),
-    strDrinkThumb: z.string()
+    strDrinkThumb: z.string(),
+    strCategory: z.string()
 })
 
 export const DrinksAPIRepsonse = z.object({
